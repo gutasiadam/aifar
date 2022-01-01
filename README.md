@@ -2,14 +2,14 @@
 
 ## Mi az AIFAR?
 
-Az AIFAR ( Automatikus Időzített Felugró Ablak Rendszer ) célja az oldalon belül meglátogatott "kategóriák"-hoz igazított legoptimálisabb felugró ablakok, reklámok megjelenítése, időzítése és kezelése.
+Az AIFAR ( Automatikus Időzített Felugró Ablak Rendszer ) célja az oldalon belül meglátogatott Wordpress "kategóriák"-hoz igazított legoptimálisabb felugró ablakok, reklámok megjelenítése, időzítése és kezelése.
 
 
 ## Hogyan működik?
 AIFAR a következő adatokat tárolja a felhasználóról:
 
  - legutóbbi látogatás időpontja
- - látogatások száma kategóriák szerint rendezve egy JSON fájlba.
+ - látogatások száma kategóriák szerint rendezve egy JSON fájlba (a böngésző lokális tárhelyén).
 
 Az adatok a felhasználó helyi tárhelyén kerülnek tárolásra (**LocalStorage**). A weboldal/alkalmazás üzemeltetője így nem fér hozzá direkt módon a látogatási adatokhoz.
 
